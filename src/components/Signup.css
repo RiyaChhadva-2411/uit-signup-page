@@ -106,6 +106,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     .form-control{
         margin-bottom: 15px;
     }
+    span{
+        font-size: 14px;
+    }
     .Signup__Form{
         padding-left: 0px;
         padding-top: 35px;
@@ -121,5 +124,38 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         margin-top: 0px;
         margin-left: 19%;
         margin-bottom: 50px;
+    }
+}
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width:800px){
+    .Signup__image{
+        width: 400px;
+        height: 400px;
+        margin-top: 140px;
+        margin-left: -20px;
+    }
+    .Signup__heading{
+        padding-top: 123px;
+        font-size: 31px;
+        margin-left: 10px;
+    }
+    .Signup__Form{
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+    span{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .Signup__SaveButton{
+        width: 100px;
+        margin-right: 15px;
+    }
+    .Signup__SubmitButton{
+        width: 100px;
+    }
+    .Signup__form-submit{
+        margin-top: 7px;
+        margin-left: 20%;
     }
 }
