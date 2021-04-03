@@ -92,7 +92,7 @@ class Signup extends React.Component{
                                     <span>Confirm Password</span>
                                 </div>
                             </div> */}
-                            <div className="row">
+                            <div className="row Signup__row">
                             <div className="Signup__form-submit">
                                 <button type="submit" className="btn Signup__SaveButton">Save</button>
                                 <button type="button" className="btn Signup__SubmitButton">Signup</button>
@@ -100,6 +100,8 @@ class Signup extends React.Component{
                             </div>
                         </form>
                     </div>
+
+                    
                 </div>
             </div>
         );

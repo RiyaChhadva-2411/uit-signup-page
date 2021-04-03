@@ -1,14 +1,18 @@
 .Signup__image{
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 40px;
 }
-
+/* .Signup__row{
+    height: 50vh;
+} */
 .Signup__column{
     background-color: #f6dfeb;
 }
 .Signup__Form{
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 50px;    
 }
 
 .Signup__heading{
@@ -85,4 +89,37 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     background-color:  #f6dfeb;
     color: #763857;
     padding: .175rem 0.5rem;
+}
+/*For mobile use*/
+@media screen and (max-width: 576px){
+    .Signup__image{
+        width: 340px;
+        height: 340px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .Signup__heading{
+        padding-top: 50px;
+        font-size: 27px;
+        margin-left: 20px;
+    }
+    .form-control{
+        margin-bottom: 15px;
+    }
+    .Signup__Form{
+        padding-left: 0px;
+        padding-top: 35px;
+    }
+    .Signup__SaveButton{
+        width: 100px;
+        margin-right: 20px;
+    }
+    .Signup__SubmitButton{
+        width: 100px;
+    }
+    .Signup__form-submit{
+        margin-top: 0px;
+        margin-left: 19%;
+        margin-bottom: 50px;
+    }
 }
