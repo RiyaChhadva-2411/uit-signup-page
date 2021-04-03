@@ -6,7 +6,7 @@ class Signup extends React.Component{
         return(
             <div className="container-fluid Signup__container">
                 <div className="row">
-                    <div className="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+                    <div className="col-md-6 col-sm-12 col-xs-12 col-lg-6 Signup__svg-column">
                             <div className="Signup__svg">
                                 <img src={signup} alt="signup-svg" className="Signup__image" />
                             </div>

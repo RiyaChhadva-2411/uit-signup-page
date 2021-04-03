@@ -90,6 +90,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     color: #763857;
     padding: .175rem 0.5rem;
 }
+.Signup__svg-column{
+    height: 100vh;
+}
 /*For mobile use*/
 @media screen and (max-width: 576px){
     .Signup__image{
@@ -125,6 +128,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
         margin-left: 19%;
         margin-bottom: 50px;
     }
+    .Signup__svg-column{
+        height: 50vh;
+    }
 }
 /*For small and medium devices*/
 @media(min-width: 576px) and (max-width:800px){
@@ -157,5 +163,44 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     .Signup__form-submit{
         margin-top: 7px;
         margin-left: 20%;
+    }
+    .Signup__svg-column{
+        height: 100vh;
+    }
+}
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width:1200px){
+    .Signup__image{
+        width: 500px;
+        height: 500px;
+        margin-top:70px;
+        margin-left: 0px;
+    }
+    .Signup__heading{
+        padding-top: 109px;
+        font-size: 34px;
+        margin-left: 15px;
+    }
+    .Signup__Form{
+        padding-left: 5px;
+        padding-top: 40px;
+    }
+    span{
+        font-size: 14px;
+        line-height: 1.1;
+    }
+    .Signup__SaveButton{
+        width: 130px;
+        margin-right: 20px;
+    }
+    .Signup__SubmitButton{
+        width: 130px;
+    }
+    .Signup__form-submit{
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    .Signup__svg-column{
+        height: 100vh;
     }
 }
