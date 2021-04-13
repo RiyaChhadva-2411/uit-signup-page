@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/uit-signup-page/static/css/main.ddb38f89.chunk.css",
-    "main.js": "/uit-signup-page/static/js/main.a31c2151.chunk.js",
-    "main.js.map": "/uit-signup-page/static/js/main.a31c2151.chunk.js.map",
+    "main.css": "/uit-signup-page/static/css/main.f2c38ed1.chunk.css",
+    "main.js": "/uit-signup-page/static/js/main.c698f8d0.chunk.js",
+    "main.js.map": "/uit-signup-page/static/js/main.c698f8d0.chunk.js.map",
     "runtime-main.js": "/uit-signup-page/static/js/runtime-main.a6ceb09b.js",
     "runtime-main.js.map": "/uit-signup-page/static/js/runtime-main.a6ceb09b.js.map",
     "static/js/2.724909d7.chunk.js": "/uit-signup-page/static/js/2.724909d7.chunk.js",
     "static/js/2.724909d7.chunk.js.map": "/uit-signup-page/static/js/2.724909d7.chunk.js.map",
     "index.html": "/uit-signup-page/index.html",
-    "static/css/main.ddb38f89.chunk.css.map": "/uit-signup-page/static/css/main.ddb38f89.chunk.css.map",
+    "static/css/main.f2c38ed1.chunk.css.map": "/uit-signup-page/static/css/main.f2c38ed1.chunk.css.map",
     "static/js/2.724909d7.chunk.js.LICENSE.txt": "/uit-signup-page/static/js/2.724909d7.chunk.js.LICENSE.txt",
-    "static/media/login.682f79e4.jpg": "/uit-signup-page/static/media/login.682f79e4.jpg"
+    "static/media/signup-svg.2bd3286d.svg": "/uit-signup-page/static/media/signup-svg.2bd3286d.svg",
+    "static/media/signup.682f79e4.jpg": "/uit-signup-page/static/media/signup.682f79e4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a6ceb09b.js",
     "static/js/2.724909d7.chunk.js",
-    "static/css/main.ddb38f89.chunk.css",
-    "static/js/main.a31c2151.chunk.js"
+    "static/css/main.f2c38ed1.chunk.css",
+    "static/js/main.c698f8d0.chunk.js"
   ]
 }
