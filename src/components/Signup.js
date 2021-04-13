@@ -1,6 +1,7 @@
 import React from 'react';
 import './Signup.css';
-import signup from "../svg/login.jpg";
+import signup from "../svg/signup.jpg";
+import signupSvg from "../svg/signup-svg.svg";
 class Signup extends React.Component{
     render(){
         return(
@@ -8,7 +9,7 @@ class Signup extends React.Component{
                 <div className="row">
                     <div className="col-md-6 col-sm-12 col-xs-12 col-lg-6 Signup__svg-column">
                             <div className="Signup__svg">
-                                <img src={signup} alt="signup-svg" className="Signup__image" />
+                                <img src={signupSvg} alt="signup-svg" className="Signup__image" />
                             </div>
                     </div>
 

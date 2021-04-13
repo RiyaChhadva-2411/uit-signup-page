@@ -1,14 +1,14 @@
 .Signup__image{
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 650px;
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 0px;
 }
-/* .Signup__row{
-    height: 50vh;
-} */
+ .Signup__row{
+    height: 10vh;
+} 
 .Signup__column{
-    background-color: #f6dfeb;
+    background-color: #CBC3E3;
 }
 .Signup__Form{
     padding-left: 30px;
@@ -20,7 +20,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
-    color: #763857;
+    color: 	#4B0082;
     margin-left: 30px;
 }
 .form-control{
@@ -29,7 +29,7 @@
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color:#763857;
+    color:#4B0082;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #CADEEF;
@@ -41,14 +41,14 @@
     margin-bottom: 40px;
 }
 .Signup__SubmitButton{
-    background-color: #763857;
+    background-color: #4B0082;
     color: #ffffff;
     width: 150px;
     padding: 10px 10px 10px 10px ;
     border-radius: 20px;
 }
 .Signup__SaveButton{
-    background-color: #763857;
+    background-color: #4B0082;
     color: #ffffff;
     width: 150px;
     padding: 10px 10px 10px 10px ;
@@ -70,7 +70,7 @@ span{
     left:0;
     line-height: 1.5;
     font-size: 16px;
-    color:#763857;
+    color:#4B0082;
     transition: 0.2s;
     transition-timing-function: ease;
     transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
@@ -79,15 +79,15 @@ span{
 input:focus + span, input:not(:placeholder-shown)+ span{
     opacity:1;
     transform: scale(0.75) translateY(-80%) translateX(-18px);
-    background-color:  #f6dfeb;
-    color: #763857;
+    background-color:  #CBC3E3;
+    color: #4B0082;
     padding: .175rem 0.5rem;
 }
 textarea:focus + span, textarea:not(:placeholder-shown) + span {
     opacity:1;
     transform: scale(0.8) translateY(-80%) translateX(-1px);
-    background-color:  #f6dfeb;
-    color: #763857;
+    background-color:  #CBC3E3;
+    color: #4B0082;
     padding: .175rem 0.5rem;
 }
 .Signup__svg-column{
