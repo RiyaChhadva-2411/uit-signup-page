@@ -97,9 +97,9 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
 @media screen and (max-width: 576px){
     .Signup__image{
         width: 340px;
-        height: 340px;
-        margin-top: 20px;
-        margin-left: 0px;
+        height: 380px;
+        margin-top: 50px;
+        margin-left: 15px;
     }
     .Signup__heading{
         padding-top: 50px;
